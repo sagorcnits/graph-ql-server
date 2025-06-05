@@ -1,10 +1,13 @@
-const resolvers = {
-    Query: {
-        // Define your query resolvers here
-    },
-    Mutation: {
-        // Define your mutation resolvers here
-    }
+ const resolvers = {
+  Query: {
+    hello: () => "Hello from Apollo GraphQL!",
+  },
+  Mutation: {
+    // Define your mutation resolvers here
+  },
 };
 
+
 module.exports = resolvers;
+
+

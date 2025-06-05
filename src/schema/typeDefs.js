@@ -1,9 +1,9 @@
-import { gql } from 'apollo-server-express';
+// const gql = require('require("@apollo/server/express4') 
 
-const typeDefs = gql`
-    type Query {
-        hello: String
-    }
+const typeDefs = `
+  type Query {
+    hello: String
+  }
 `;
 
-export default typeDefs;
+module.exports = typeDefs;
