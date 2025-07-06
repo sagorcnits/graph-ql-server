@@ -52,10 +52,6 @@ async function startServer() {
     res.send("Server is running!....");
   });
 
-  app.get("/new", (req, res) => {
-    res.send("Server is running!.... new");
-  });
-
   app.listen(PORT, () => {
     console.log(`✅ Server running on port graphql ${PORT}`);
   });
